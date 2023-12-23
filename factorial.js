@@ -40,4 +40,18 @@ function fact(num){
 
 }
 let a = fact(4)
+
 console.log(a)
+// function neww(){
+//     return 2+3
+// }
+// let o=neww()
+// console.log(o)
+function add(b,c){
+    let a = b+c
+return a
+}
+let d=add()
+console.log(d)
+
+export  {fact,add}
